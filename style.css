@@ -1,6 +1,7 @@
 body {font-family: Inter;}
 
 .container {
+    padding-top: 1rem;
     display: flex;
     width: 100%;
     margin: 0 auto;
@@ -69,7 +70,7 @@ nav ul li {
 
 .titulo__principal {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     padding-bottom: 2rem;
     margin: 0;
@@ -124,6 +125,7 @@ nav ul li {
 .titulo__area {
     font-weight: 500;
     font-size: 1.3rem;
+    padding-bottom: 1rem;
 }
 
 .borda__area {
@@ -145,5 +147,71 @@ nav ul li {
 }
 
 .texto__depoimentos {
+    padding-top: 2rem;
     color: #8E2424;
+    text-align: center;
+    font-weight: 600;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c4191908;
+    border-radius: 16px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.nome__depoimentos {
+    text-align: center;
+    font-weight: 500;
+}
+
+#cargo {
+    color: #51596b;
+    margin: 0;
+}
+
+.oportunidades {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background: #c4191908;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-padrao {
+    width: 250px;
+    border-radius: 4px;
+    border:1px #dad9d9 solid ;
+}
+
+.botao-enviar {
+    width: 80px;
+    height: 100%;
+    background-color: #8E2424;
+    margin-left: 10px;
+    border:1px #8E2424 solid ;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+#inline {
+    display:flex;
+    flex-direction: row;
+    padding: 25px 0 ;
+    margin: 0 0 10px;
+    height: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.copy {
+    color: #98A2B3;
+    padding-bottom: 1rem;
+    font-size: 0.7rem;
 }
